@@ -67,3 +67,71 @@ $('#registration-form').submit(function(e){
 */
 
 smoothScroll.init();
+
+
+/* filter */
+let topics = {
+    "FUTURE ENERGY SYSTEMS AND TECHNOLOGIES": [
+        " Algorithms for Smart Energy Management and Analytics",
+        " Smart Grid Technologies and Infrastructures",
+        " Sensor Networks for Smart Grids",
+        " Industrial Applications of Smart Energy Systems",
+        " Home Automation Technologies",
+        " Safety and Security",
+        " Smart Devices & Metering",
+        " IoT Applications in Grid",
+        " Reliability and Maintenance",
+        " Grid Integration of distributed energy sources",
+        " Power quality event detection, classification and mitigation with signal processing techniques",
+        " Control of shunt, series and active filters"
+    ],
+    "Sustainable Energy Systems": [
+        "New Trends and Technologies for Renewable Energy Sources (RES)",
+        "Control Techniques for Renewable Energy Systems",
+        "Control Techniques for RES",
+        "RES for Electrical Vehicles and Components",
+        "Hybrid RES",
+        "Renewable Energy Research and Applications for Industries",
+        "Policies in Renewable Energy Integration",
+        "Advanced Green Energy Technologies",
+        "Energy Efficient Designs and Standards",
+        "Green Energy in Transport & Sustainable Cities",
+        "Rural Development through Green Energy"
+    ],
+    "Distributed Energy Systems": [
+        "Electrical Power quality",
+        "Active and reactive Power Management",
+        "Control and energy management system",
+        "Distributed energy and Microgrid systems",
+        "DC & AC Microgrids",
+        "Microgrid energy management",
+        "Power Generation and Distribution",
+        "Energy Storage Systems and Applications"
+    ],
+    "Power Electronics and Drive System": [
+        "Power converter topologies: Modelling, Analysis and Control",
+        "Power Semiconductor Devices and their applications",
+        "Control techniques in Power Electronics",
+        "Simulation of Power Electronics",
+        "Electric Drives and their control",
+        "Electric Drives for Renewable and Transportation",
+        "Thermal Management, Packaging, and Optimization.",
+        "Fault Diagnosis, Condition monitoring, and Reliability of Electric Drives.",
+        "Electrical Vehicle and related areas",
+        "FACTS, PFC, STATCOM",
+        "Harmonic analysis and compensations"
+    ],
+    "Instrumentation & Control": [
+        "Advances in Theoretical Aspects of Measurement, Instrumentation, Control and Automation(MICA)",
+        "Adaptive, Robust, Distributed, Intelligent, and Digital control",
+        "Process Control and Automation",
+        "Estimation, Modelling and Identification",
+        "Novel Instrumentation for Process Measurement",
+        "Optimization and optimal control",
+        "Artificial Intelligent and Expert System",
+        "Fuzzy Logic and Neural Network",
+        "Recent developments in automation and control"
+    ]
+}
+
+
